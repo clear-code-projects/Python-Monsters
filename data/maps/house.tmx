@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="9" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="11" nextobjectid="12">
+ <tileset firstgid="1" source="../tilesets/world.tsx"/>
+ <tileset firstgid="211" source="../tilesets/objects.tsx"/>
+ <tileset firstgid="236" source="../tilesets/indoor.tsx"/>
+ <layer id="1" name="Terrain" width="9" height="12">
+  <data encoding="csv">
+241,242,242,242,242,242,242,242,243,
+271,252,252,264,265,252,252,252,253,
+271,262,262,274,275,262,262,262,263,
+271,272,272,272,272,272,272,272,273,
+271,282,282,282,282,282,282,282,283,
+271,282,282,282,282,282,282,282,273,
+271,282,282,282,282,282,282,282,273,
+271,282,282,282,282,282,282,282,273,
+271,282,282,282,282,282,282,282,273,
+271,282,282,282,282,282,282,282,273,
+271,282,282,282,282,282,282,282,273,
+291,292,254,255,292,292,292,292,293
+</data>
+ </layer>
+ <layer id="10" name="Terrain Top" width="9" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,301,0,0,
+0,0,0,0,0,0,311,0,0,
+0,0,0,0,0,0,311,0,0,
+0,0,0,0,0,0,311,0,0,
+0,320,320,320,320,320,321,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Entities">
+  <object id="1" name="Player" x="193.333" y="620">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="pos" value="world"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Coast"/>
+ <objectgroup id="7" name="Water"/>
+ <objectgroup id="8" name="Monsters"/>
+ <objectgroup id="9" name="Collisions"/>
+ <objectgroup id="3" name="Objects"/>
+ <objectgroup id="5" name="Transition">
+  <object id="8" x="161.333" y="690.666" width="60" height="16">
+   <properties>
+    <property name="pos" value="house"/>
+    <property name="target" value="world"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="4" name="Water" width="9" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

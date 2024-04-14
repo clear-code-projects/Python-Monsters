@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="24" height="34" tilewidth="64" tileheight="64" infinite="0" nextlayerid="13" nextobjectid="983">
+ <tileset firstgid="1" source="../tilesets/world.tsx"/>
+ <tileset firstgid="211" source="../tilesets/objects.tsx"/>
+ <tileset firstgid="242" source="../tilesets/Grass.tsx"/>
+ <tileset firstgid="244" source="../tilesets/indoor.tsx"/>
+ <layer id="1" name="Terrain" width="24" height="34">
+  <data encoding="csv">
+15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,4,5,5,5,5,6,15,15,15,15,15,15,15,15,15,15,15,15,
+15,15,15,15,4,5,5,15,15,15,15,5,5,5,5,6,15,15,15,15,15,15,15,15,
+15,15,15,4,5,15,15,15,15,15,15,15,15,15,15,5,5,5,6,15,15,15,15,15,
+15,15,4,5,15,15,15,15,15,15,15,15,15,15,15,15,15,15,5,6,15,15,15,15,
+15,4,5,15,15,15,7,8,8,8,8,25,25,25,25,9,15,15,15,5,6,15,15,15,
+15,19,15,15,15,7,26,15,15,15,15,15,15,15,15,24,9,15,15,15,27,5,6,15,
+4,29,15,15,7,26,15,15,4,5,5,5,5,6,15,15,24,9,15,15,15,15,16,15,
+14,15,15,15,16,15,15,4,29,4,5,5,6,27,6,15,15,24,9,15,15,15,16,15,
+14,15,15,15,16,15,15,14,72,14,15,15,16,72,16,15,15,15,24,9,15,15,16,15,
+14,15,15,15,16,15,15,14,72,24,58,58,26,72,16,15,15,15,15,14,15,15,16,15,
+14,15,15,7,26,15,15,14,72,72,72,72,72,72,16,15,15,15,15,14,15,15,16,15,
+14,15,15,17,15,15,15,14,72,72,72,72,72,72,16,15,15,15,15,14,15,15,16,15,
+14,15,15,17,15,15,15,14,72,72,72,72,72,7,26,15,15,15,15,14,15,15,16,15,
+24,9,15,27,6,15,15,24,25,9,42,42,7,26,42,15,15,15,15,14,15,15,16,15,
+15,14,15,15,17,15,15,42,15,14,42,42,16,42,42,15,15,15,4,29,15,15,16,15,
+15,14,15,15,27,28,28,28,28,29,42,42,16,42,42,15,15,15,14,15,15,15,16,15,
+15,24,9,15,15,15,15,42,42,15,15,7,26,15,15,15,15,4,29,15,15,7,26,15,
+15,15,14,15,15,15,15,15,15,15,7,26,15,4,5,5,28,29,15,15,7,26,15,15,
+15,15,24,25,25,25,25,25,25,25,26,15,4,29,15,15,15,15,15,7,26,15,15,15,
+15,15,15,15,45,45,45,15,45,45,15,4,29,15,15,15,15,15,7,26,15,15,15,15,
+15,15,15,15,15,45,45,45,45,45,4,29,15,15,15,7,25,25,26,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,4,29,15,15,15,7,26,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,14,15,15,15,7,26,15,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,14,15,15,7,26,15,15,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,14,15,15,16,15,15,15,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,14,15,15,16,15,15,15,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,287,287,287,287,15,15,15,15,15,15,15,15,15,15,15,
+287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,
+287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,
+287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287,287
+</data>
+ </layer>
+ <objectgroup id="3" name="Entities" visible="0">
+  <object id="854" name="Player" x="703" y="1865">
+   <properties>
+    <property name="direction" value="up"/>
+    <property name="pos" value="entrance"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="857" name="Character" x="603.333" y="1162.67">
+   <properties>
+    <property name="change_direction" type="bool" value="true"/>
+    <property name="character_id" value="t4"/>
+    <property name="color" value="#00ff00"/>
+    <property name="direction" value="right"/>
+    <property name="graphic" value="young_girl"/>
+    <property name="radius" value="400"/>
+    <property name="text_color" value="#ff0000"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="858" name="Character" x="705" y="895.333">
+   <properties>
+    <property name="change_direction" type="bool" value="true"/>
+    <property name="character_id" value="t6"/>
+    <property name="color" value="#00ff00"/>
+    <property name="direction" value="down"/>
+    <property name="graphic" value="fire_boss"/>
+    <property name="radius" value="0"/>
+    <property name="text_color" value="#ff0000"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="859" name="Character" x="1002" y="1023">
+   <properties>
+    <property name="change_direction" type="bool" value="true"/>
+    <property name="character_id" value="t4"/>
+    <property name="color" value="#00ff00"/>
+    <property name="direction" value="right"/>
+    <property name="graphic" value="purple_girl"/>
+    <property name="radius" value="400"/>
+    <property name="text_color" value="#ff0000"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="860" name="Character" x="540.333" y="1793.33">
+   <properties>
+    <property name="change_direction" type="bool" value="true"/>
+    <property name="character_id" value="t3"/>
+    <property name="color" value="#00ff00"/>
+    <property name="direction" value="right"/>
+    <property name="graphic" value="young_guy"/>
+    <property name="radius" value="400"/>
+    <property name="text_color" value="#ff0000"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="908" name="Character" x="827" y="1496">
+   <properties>
+    <property name="change_direction" type="bool" value="true"/>
+    <property name="character_id" value="t4"/>
+    <property name="color" value="#00ff00"/>
+    <property name="direction" value="right"/>
+    <property name="graphic" value="young_girl"/>
+    <property name="radius" value="400"/>
+    <property name="text_color" value="#ff0000"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="909" name="Character" x="791" y="736">
+   <properties>
+    <property name="change_direction" type="bool" value="true"/>
+    <property name="character_id" value="t4"/>
+    <property name="color" value="#00ff00"/>
+    <property name="direction" value="right"/>
+    <property name="graphic" value="purple_girl"/>
+    <property name="radius" value="400"/>
+    <property name="text_color" value="#ff0000"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="910" name="Character" x="379" y="1076">
+   <properties>
+    <property name="change_direction" type="bool" value="true"/>
+    <property name="character_id" value="t4"/>
+    <property name="color" value="#00ff00"/>
+    <property name="direction" value="right"/>
+    <property name="graphic" value="purple_girl"/>
+    <property name="radius" value="400"/>
+    <property name="text_color" value="#ff0000"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Coast" visible="0"/>
+ <objectgroup id="6" name="Monsters" visible="0"/>
+ <objectgroup id="2" name="Objects">
+  <object id="879" gid="236" x="563" y="1036" width="60" height="60"/>
+  <object id="884" gid="219" x="870.333" y="1227.33" width="64" height="128"/>
+  <object id="907" gid="241" x="1175" y="1547" width="56" height="60"/>
+  <object id="911" gid="226" x="1009.33" y="1745.33" width="128" height="192"/>
+  <object id="912" gid="226" x="1157.33" y="1656" width="128" height="192"/>
+  <object id="913" gid="226" x="906.667" y="1160" width="128" height="192"/>
+  <object id="914" gid="226" x="386.667" y="702.667" width="128" height="192"/>
+  <object id="915" gid="226" x="1.33333" y="1437.33" width="128" height="192"/>
+  <object id="916" gid="226" x="96" y="1561.33" width="128" height="192"/>
+  <object id="917" gid="226" x="372" y="1194.67" width="128" height="192"/>
+  <object id="918" gid="228" x="1414.67" y="1397.33" width="64" height="128"/>
+  <object id="919" gid="228" x="1310.67" y="1525.33" width="64" height="128"/>
+  <object id="920" gid="228" x="702.667" y="1465.33" width="64" height="128"/>
+  <object id="921" gid="228" x="657.333" y="1510.67" width="64" height="128"/>
+  <object id="922" gid="228" x="56" y="1486.67" width="64" height="128"/>
+  <object id="923" gid="228" x="360" y="1204" width="64" height="128"/>
+  <object id="924" gid="228" x="356" y="740" width="64" height="128"/>
+  <object id="925" gid="228" x="586.667" y="964" width="64" height="128"/>
+  <object id="926" gid="228" x="769.333" y="942.667" width="64" height="128"/>
+  <object id="927" gid="227" x="913.333" y="1269.33" width="128" height="192"/>
+  <object id="928" gid="227" x="269.333" y="1050.67" width="128" height="192"/>
+  <object id="929" gid="227" x="1024" y="848" width="128" height="192"/>
+  <object id="930" gid="227" x="1068" y="965.333" width="128" height="192"/>
+  <object id="931" gid="227" x="1378.67" y="565.333" width="128" height="192"/>
+  <object id="932" gid="227" x="300" y="858.667" width="128" height="192"/>
+  <object id="933" gid="227" x="784" y="1012" width="128" height="192"/>
+  <object id="934" gid="227" x="562.667" y="1568" width="128" height="192"/>
+  <object id="935" gid="227" x="138.667" y="1680" width="128" height="192"/>
+  <object id="936" gid="227" x="482.667" y="1554.67" width="128" height="192"/>
+  <object id="937" gid="227" x="1096" y="1730.67" width="128" height="192"/>
+  <object id="938" gid="227" x="846.667" y="1873.33" width="128" height="192"/>
+  <object id="939" gid="227" x="434.667" y="1920" width="128" height="192"/>
+  <object id="940" gid="227" x="494.667" y="1642.67" width="128" height="192"/>
+  <object id="941" gid="227" x="1374.67" y="1538.67" width="128" height="192"/>
+  <object id="942" gid="226" x="976" y="917.333" width="128" height="192"/>
+  <object id="943" gid="226" x="822.667" y="640" width="128" height="192"/>
+  <object id="944" gid="226" x="346.667" y="1541.33" width="128" height="192"/>
+  <object id="945" gid="226" x="780" y="301.333" width="128" height="192"/>
+  <object id="946" gid="226" x="1165.33" y="369.333" width="128" height="192"/>
+  <object id="947" gid="226" x="161.333" y="248" width="128" height="192"/>
+  <object id="948" gid="226" x="457.333" y="164" width="128" height="192"/>
+  <object id="949" gid="227" x="1069.33" y="373.333" width="128" height="192"/>
+  <object id="950" gid="227" x="664" y="226.667" width="128" height="192"/>
+  <object id="951" gid="227" x="-65.3333" y="404" width="128" height="192"/>
+  <object id="952" gid="227" x="126.667" y="313.333" width="128" height="192"/>
+  <object id="953" gid="227" x="400" y="212" width="128" height="192"/>
+  <object id="954" gid="227" x="1252" y="313.333" width="128" height="192"/>
+  <object id="955" gid="227" x="1165.33" y="300" width="128" height="192"/>
+  <object id="956" gid="227" x="881.333" y="165.333" width="128" height="192"/>
+  <object id="957" gid="227" x="1386.67" y="250.667" width="128" height="192"/>
+  <object id="958" gid="228" x="952" y="218.667" width="64" height="128"/>
+  <object id="959" gid="228" x="504" y="212" width="64" height="128"/>
+  <object id="960" gid="228" x="240" y="266.667" width="64" height="128"/>
+  <object id="961" gid="228" x="129.333" y="352" width="64" height="128"/>
+  <object id="962" gid="228" x="-5.33333" y="452" width="64" height="128"/>
+  <object id="963" gid="228" x="213.333" y="1716" width="64" height="128"/>
+  <object id="964" gid="228" x="1042.67" y="996" width="64" height="128"/>
+  <object id="965" gid="228" x="990.667" y="1313.33" width="64" height="128"/>
+  <object id="966" gid="228" x="828" y="1292" width="64" height="128"/>
+  <object id="967" gid="228" x="501.333" y="1213.33" width="64" height="128"/>
+  <object id="969" gid="228" x="376" y="917.333" width="64" height="128"/>
+  <object id="970" gid="228" x="521.333" y="617.333" width="64" height="128"/>
+  <object id="971" gid="228" x="566.667" y="638.667" width="64" height="128"/>
+  <object id="972" gid="228" x="780" y="610.667" width="64" height="128"/>
+  <object id="973" gid="228" x="1350.67" y="514.667" width="64" height="128"/>
+  <object id="974" gid="236" x="938" y="676.667" width="60" height="60"/>
+  <object id="975" gid="236" x="219.333" y="1508.67" width="60" height="60"/>
+  <object id="976" gid="236" x="0.666667" y="1188.67" width="60" height="60"/>
+  <object id="977" gid="236" x="514" y="751.333" width="60" height="60"/>
+  <object id="978" gid="236" x="843.333" y="819.333" width="60" height="60"/>
+  <object id="979" gid="237" x="1133.33" y="1010" width="56" height="60"/>
+  <object id="980" gid="237" x="1260" y="1551.33" width="56" height="60"/>
+  <object id="981" gid="237" x="792" y="1383.33" width="56" height="60"/>
+  <object id="982" gid="237" x="534.667" y="1074" width="56" height="60"/>
+ </objectgroup>
+ <objectgroup id="12" name="Collisions" visible="0"/>
+ <objectgroup id="5" name="Transition" visible="0">
+  <object id="851" x="644.833" y="1976.33" width="114.917" height="3.83333">
+   <properties>
+    <property name="pos" value="fire"/>
+    <property name="target" value="world"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="Water" visible="0" locked="1"/>
+</map>
