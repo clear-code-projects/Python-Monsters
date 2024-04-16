@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="9" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="11" nextobjectid="20">
+ <tileset firstgid="1" source="../tilesets/world.tsx"/>
+ <tileset firstgid="211" source="../tilesets/objects.tsx"/>
+ <tileset firstgid="242" source="../tilesets/indoor.tsx"/>
+ <layer id="1" name="Terrain" width="9" height="12">
+  <data encoding="csv">
+247,248,248,248,248,248,248,248,249,
+277,258,258,270,271,258,258,258,259,
+277,268,268,280,281,268,268,268,269,
+277,278,278,278,278,278,278,278,279,
+277,288,288,288,288,288,288,288,289,
+277,288,288,288,288,288,288,288,279,
+277,288,288,288,288,288,288,288,279,
+277,288,288,288,288,288,288,288,279,
+277,288,288,288,288,288,288,288,279,
+277,288,288,288,288,288,288,288,279,
+277,288,288,288,288,288,288,288,279,
+297,298,260,261,298,298,298,298,299
+</data>
+ </layer>
+ <layer id="10" name="Terrain Top" width="9" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,307,0,0,
+0,0,0,0,0,0,317,0,0,
+0,0,0,0,0,0,317,0,0,
+0,0,0,0,0,0,317,0,0,
+0,326,326,306,0,316,327,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Entities">
+  <object id="1" name="Player" x="192.666" y="651.333">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="pos" value="world"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="12" name="Character" x="286.934" y="374.101">
+   <properties>
+    <property name="character_id" value="Nurse"/>
+    <property name="graphic" value="purple_girl"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Coast"/>
+ <objectgroup id="7" name="Water"/>
+ <objectgroup id="8" name="Monsters"/>
+ <objectgroup id="9" name="Collisions">
+  <object id="13" x="54.0322" y="141.886" width="395.136" height="302.333"/>
+  <object id="14" x="-5.77444" y="712.73" width="154.26" height="64.3437"/>
+  <object id="15" x="239.227" y="710.668" width="351.003" height="69.7057"/>
+  <object id="16" x="524.236" y="3.29968" width="145.598" height="709.843"/>
+  <object id="17" x="451.231" y="123.325" width="75.8926" height="102.29"/>
+  <object id="18" x="-41.246" y="10.724" width="92.391" height="687.57"/>
+ </objectgroup>
+ <objectgroup id="3" name="Objects"/>
+ <objectgroup id="5" name="Transition">
+  <object id="8" x="161.333" y="699.999" width="60" height="6.66667">
+   <properties>
+    <property name="pos" value="hospital2"/>
+    <property name="target" value="world"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
